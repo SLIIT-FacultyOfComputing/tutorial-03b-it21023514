@@ -1,3 +1,5 @@
+//Ex2
+
 #include <iostream>
 using namespace std;
 
@@ -31,3 +33,7 @@ int main() {
 }
 
 // Implement the Volume() function here
+int volume(int height, int width, int length)
+{
+  return (length * width * height);
+}
